@@ -1,0 +1,7 @@
+Find and Replace
+
+User inputs a string and then is able to enter a word in the string to find and replace.
+
+STRING INPUT: Dog
+FIND: Dog
+REPLACE WITH: Cat
