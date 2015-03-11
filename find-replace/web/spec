@@ -2,6 +2,51 @@ Find and Replace
 
 User inputs a string and then is able to enter a word in the string to find and replace.
 
+0. Super baby input.
+STRING INPUT: A
+FIND INPUT: A
+REPLACE WITH INPUT: A
+OUTPUT: A
+
+1. Super baby input.
+STRING INPUT: A
+FIND INPUT: A
+REPLACE WITH INPUT: B
+OUTPUT: B
+
+2. Super baby input.
+STRING INPUT: A
+FIND INPUT: B
+REPLACE WITH INPUT: C
+OUTPUT: A
+
+3. Single Word String
 STRING INPUT: Dog
-FIND: Dog
-REPLACE WITH: Cat
+FIND INPUT: Dog
+REPLACE WITH INPUT: Cat
+OUTPUT: Cat
+
+4. Multiple Word String
+STRING INPUT: My dog has fleas
+FIND INPUT: Dog
+REPLACE WITH INPUT: cat
+OUTPUT: My cat has fleas
+
+5. Multiple Word String, Odd Input
+STRING INPUT: my dOg has Fleas
+FIND INPUT: Dog
+REPLACE WITH INPUT: Cat
+OUTPUT: My Cat has fleas
+
+6. Replace a match inside of a word
+STRING INPUT: The cat was in the cathedral
+FIND INPUT: cat
+REPLACE WITH INPUT: dog
+OUTPUT: The dog was in the doghedral
+
+
+
+str_split(cat)
+str_split(cathedral)
+
+if (array[$i] == "c" && array[$i+1] == "a" && array[$i+2] == "t")
